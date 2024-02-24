@@ -9,7 +9,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -26,16 +26,6 @@ module.exports = {
   ],
   rules: {
     "react/self-closing-comp": "error",
-    'prettier/prettier': ["error", {
-      'printWidth': 80,
-      'useTabs': true,
-      'tabWidth': 4,
-      'singleQuote': true,
-      'trailingComma': 'all',
-      'arrowParens': 'always',
-      'semi': false,
-      'endOfLine': 'auto',
-    }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'jsx-a11y/alt-text': [
